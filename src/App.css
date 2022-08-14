@@ -1,38 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+
 .App {
+  margin: 5rem;
+  padding: 0;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.card {
+  max-width: 100px;
+  margin: auto;
   text-align: center;
+  border-radius: 21px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.wrapperDiv{
+  background-color: hsl(10, 79%, 65%);
+  padding: 1rem 0rem 1rem 1rem;
+  width: 35% !important;
+  border-radius: 25px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.graphWrapper{
+  background-color: hsl(33, 100%, 98%);
+  padding: 1rem 1rem 1rem 1rem;
+  width: 35% !important;
+  border-radius: 25px;
+  color: black;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.svgDiv{
+  text-align: right;
+  padding-top: 1rem;
+  padding-bottom: 0.2rem;
+  padding-right: 2.5rem !important;
+}
+
+.currency-div{
+  font-size: 25px;
+  margin: 0 !important;
+  font-weight: 700;
+}
+
+.balance-div{
+  margin: 0 !important;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+  font-weight: 500;
+}
+
+.upper-wrapper{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.spend-title{
+  font-size: 21px;
+  margin: 0 !important;
+  font-weight: 900;
+  padding: 1rem 1rem 1rem 1rem;
+  opacity: .85;
+}
+
+.divider{
+  width: 92%;
+  height: 1px;
+  background-color: hsl(28, 10%, 53%);
+  opacity: .45;
+}
+
+.footer-wrapper{
+  padding: 0rem 1rem 0rem 1rem;
+}
+
+.footer-title{
+  color: hsl(28, 10%, 53%);
+  font-size: 12px;
+  margin: 0 !important;
+}
+
+.footer2-title{
+  font-size: 12px;
+  font-weight: 700;
+  margin: 0 !important;
+}
+
+
+.footer-currency-div{
+  font-size: 29px;
+  margin: 0 !important;
+  font-weight: 700;
+  opacity: .80;
+}
+
+.footer2-currency-div{
+  font-size: 15px;
+  margin: 0 !important;
+  opacity: .80;
+  color: hsl(28, 10%, 53%);
+}
+
+.footer-left-wrapper{
+  flex-flow: column;
+  align-items: flex-end;
+  align-self: flex-end;
+  margin-bottom: 12px;
 }
